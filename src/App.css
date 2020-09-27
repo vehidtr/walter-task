@@ -1,0 +1,24 @@
+html,
+body {
+  background: #f6f6f6;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  width: 100%;
+  position: absolute;
+  height: 50px;
+}
+
+main {
+  height: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
