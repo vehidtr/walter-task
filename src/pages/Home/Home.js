@@ -23,6 +23,18 @@ const Home = ({ articles, getNews, value }) => {
 
   return (
     <>
+      <div className='header-image'>
+        <img src='/images/big-logo.svg' alt='Flash news' />
+        <h1 className='first-subtitle'>Fastest news</h1>
+        <h1 className='second-subtitle'>Best information</h1>
+      </div>
+      {/* <p className='quote'>
+        "Good news is rare these days, and every glittering ounce of it should
+        be cherished and hoarded and worshipped and fondled like a priceless
+        diamond."
+        <br /> <b>~Hunter S. Thompson</b>
+      </p> */}
+      <h3 className='news-header-title'>Latest news</h3>
       {articles
         ? result.map((article, index) => (
             <NewsCard
