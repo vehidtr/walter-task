@@ -25,8 +25,10 @@ const Home = ({ articles, getNews, value }) => {
     <>
       <div className='header-image'>
         <img src='/images/big-logo.svg' alt='Flash news' />
-        <h1 className='first-subtitle'>Fastest news</h1>
-        <h1 className='second-subtitle'>Best information</h1>
+        <span>
+          <h1 className='first-subtitle'>Fastest news</h1>
+          <h1 className='second-subtitle'>Best information</h1>
+        </span>
       </div>
       {/* <p className='quote'>
         "Good news is rare these days, and every glittering ounce of it should
@@ -34,7 +36,10 @@ const Home = ({ articles, getNews, value }) => {
         diamond."
         <br /> <b>~Hunter S. Thompson</b>
       </p> */}
-      <h3 className='news-header-title'>Latest news</h3>
+      <h3 className='news-header-title'>
+        <img src='/images/menu_book-black-18dp.svg' alt='book' />
+        Latest news
+      </h3>
       {articles
         ? result.map((article, index) => (
             <NewsCard

@@ -31,3 +31,11 @@
 .Header-search-button {
   margin-right: 60px;
 }
+
+.search-icon {
+  position: absolute;
+  right: 25px;
+  border-left: 1px solid #efefef;
+  height: 24px;
+  padding-left: 5px;
+}

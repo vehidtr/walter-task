@@ -5,6 +5,12 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-image h1 {
@@ -12,16 +18,19 @@
 }
 
 .first-subtitle {
-  margin-top: 60px;
   color: #ffd437;
 }
 .second-subtitle {
-  padding-left: 20%;
   color: white;
 }
 .header-image img {
-  width: 290px;
-  margin-top: 100px;
+  width: 21em;
+  padding-right: 20px;
+  border-right: 1px solid red;
+}
+.header-image span {
+  text-align: left;
+  margin-left: 30px;
 }
 
 .quote {
@@ -40,4 +49,12 @@
   margin-left: 8px;
   border-bottom: 4px solid #bfbfbf;
   padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.news-header-title img {
+  width: 25px;
+  margin-right: 10px;
 }

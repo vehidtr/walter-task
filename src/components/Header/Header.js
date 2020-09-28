@@ -17,6 +17,11 @@ export const Header = ({ search, setSearch }) => {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
+      <img
+        className='search-icon'
+        src='/images/search-black-18dp.svg'
+        alt='search'
+      />
     </header>
   );
 };

@@ -10,14 +10,14 @@ export const NewsCard = ({ article, id }) => {
 
   return (
     <div className='Card'>
-      {/* <header>
+      <header>
         <img
           src='/images/article-black-18dp.svg'
           alt='news-icon'
           className='news-icon'
         />
         {article.source.name}
-      </header> */}
+      </header>
       <img
         src={article.urlToImage ? article.urlToImage : '/images/no-image.png'}
         alt='news'
